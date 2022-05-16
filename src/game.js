@@ -13,7 +13,7 @@ export default class Game {
   }
 
   nextPlayer () {
-    this.player = this.player === this.p1 ? this.p2 : this.p1
+    this.player = this.player === this.p1 ? this.p1 : this.p2
     this.sym = this.sym === 'X' ? 'O' : 'X'
   }
 
